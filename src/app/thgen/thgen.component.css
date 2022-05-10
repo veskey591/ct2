@@ -1,0 +1,36 @@
+div{
+    margin: 10px;
+    margin-top: 40px;
+}
+.card {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 250px;
+    color: white;
+    font-weight: 600;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+
+.card2{
+    display: inline-block;
+    border: 1px solid black;
+    width: 250px;
+    height: 70px;
+    flex-flow: column wrap;
+    border-radius: 20px;
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+hr{
+    margin: 5px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 1px 1px black;
+}

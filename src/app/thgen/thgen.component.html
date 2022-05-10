@@ -1,0 +1,8 @@
+<div class="card" *ngFor="let d of ds">
+    <span [ngStyle]="{'background-color':[d.color]}">{{d.departname}}</span>
+</div>
+<div class="card2" *ngFor="let dp of dpn" [ngStyle]="{'border-top':[dp.color]}">
+    <span>{{dp.name}}</span>
+    <hr>
+    <span>{{dp.departmentname}}</span>
+</div>

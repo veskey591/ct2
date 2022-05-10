@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid black;
+    width: 250px;
+    height: 70px;
+    flex-flow: column wrap;
+    border-radius: 20px;
+    border-top: 4px solid rgba(161, 161, 161, 0.831);
+}
+hr{
+    margin: 5px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 1px 1px black;
+}
+span{
+    display: flex;
+    justify-content: center;
+
+}
